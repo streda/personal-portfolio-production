@@ -1,0 +1,45 @@
+body.light {
+  --bg-color: #fff;
+  --text-color: #000;
+}
+
+body.dark {
+  --bg-color: #000;
+  --text-color: #fff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar {
+  /* Add styles for the navbar */
+}
+
+.navbar-container {
+  /* Add styles for the navbar container */
+}
+
+.menu-icon {
+  /* Add styles for the menu icon */
+}
+
+.navbar-links {
+  /* Add styles for the navbar links */
+}
+
+.navbar-link {
+  /* Add styles for individual navbar links */
+}
+
+.theme-toggle {
+  /* Add styles for the theme toggle button */
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+  font-size: 16px;
+  margin-left: auto;
+}
