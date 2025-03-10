@@ -42,7 +42,8 @@ const Resume: React.FC = () => {
             <li>CI/CD Pipelines (Jenkins, GitHub Actions)</li>
             <li>Unit Testing (Jest, Mocha)</li>
             <li>AWS (EC2, S3, RDS, Lambda, Amplify)</li>
-            <li>Software Configuration Management (Git, Perforce)</li>
+            <li>Software Configuration Management (Git, GitLab, Github)</li>
+	    <li>PostgreSQL(Relational Database)</li>
             <li>Agile Methodology</li>
           </ul>
         </section>

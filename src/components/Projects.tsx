@@ -16,14 +16,13 @@ const projects = [
     description:
       'A full-stack restaurant app for managing menus, orders, and customers.',
     technologies: [
-      'React',
-      'JavaScript',
+      'Vanilla JavaScript',
       'Node.js',
       'MongoDB',
       'Heroku',
       'Stripe'
     ],
-    githubLink: 'https://github.com/streda/RestaurantAppImprovement1.git',
+    githubLink: 'https://github.com/streda/restaurant-app-production.git',
     liveDemo: 'https://truefood.rest'
   },
 
@@ -32,7 +31,7 @@ const projects = [
     title: 'To-do List App',
     description:
       'A digital tool that allows users to create and manage lists of tasks they need to complete, such as marking items as finished and active.',
-    technologies: ['React', 'Redux', 'JavaScript', 'Stripe'],
+    technologies: ['React', 'Redux', 'JavaScript', 'Node.js', 'PostgreSQL','AWS', 'Web Socket'],
     githubLink: 'https://github.com/streda/to-do-list.git',
     liveDemo: 'https://mytodolistapps.com'
   }
