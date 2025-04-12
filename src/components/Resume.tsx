@@ -32,17 +32,14 @@ const Resume: React.FC = () => {
             Skills
           </h2>
           <ul className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-gray-700">
-            <li>React (Hooks, Context API, Redux)</li>
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>SQL Server & PostgreSQL</li>
-            <li>MongoDB (NoSQL)</li>
-            <li>RESTful APIs & GraphQL</li>
-            <li>CI/CD Pipelines</li>
-            <li>Unit Testing (Jest, Mocha)</li>
-            <li>AWS (EC2, S3, RDS, Lambda, Amplify)</li>
-            <li>Software Configuration Management (Git, GitLab, Github)</li>
-	    <li>PostgreSQL(Relational Database)</li>
+	    <li><strong>Programmming Languages:</strong> Java, JavaScript, TypeScript, C++, HTML, CSS </li>
+	    <li><strong>Frontend:</strong> React, Tailwind CSS, Bootstrap</li>
+	    <li><strong>Backend:</strong> Node.js, Express, RESTful APIs</li>
+	    <li><strong>Databases:</strong> SQL Server, PostgreSQL, MongoDB (NoSQL)</li>
+	    <li><strong>Cloud & DevOps</strong> AWS (EC2, S3, RDS, Lambda, Amplify), CI/CD</li>
+	    <li><strong>Software Configuration Management:</strong> Git, GitHub, GitLab, Docker, Kubernetes</li>
+	    <li><strong>Testing & Debugging:</strong> Unit Testing (Jest), Debugging Tools</li>
+	    <li><strong>Tools & Platforms:</strong> Figma, Webpack, Postman, VS Code, Linux/Ubuntu</li>            
             <li>Agile Methodology</li>
           </ul>
         </section>
@@ -107,7 +104,7 @@ const Resume: React.FC = () => {
             Education
           </h2>
           <p className="text-gray-700">
-            <strong>Bachelor’s in Computer Science & Engineering, UCSD (2022)</strong>
+            <strong>Bachelor’s in Computer Engineering, UCSD (2022)</strong>
           </p>
           <p className="text-gray-600 text-sm">
             Key Courses: Data Structures & Algorithms, Software Engineering, Web Development, Operating Systems, Computer Networks, Computer Security.
