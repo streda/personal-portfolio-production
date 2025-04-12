@@ -6,7 +6,7 @@ const projects = [
     title: 'Portfolio Website',
     description:
       'My personal portfolio website showcasing my skills and projects.',
-    technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Digital Ocean'],
+    technologies: ['React', 'TypeScript', 'Websocket', 'Tailwind CSS', 'Digital Ocean'],
     githubLink: 'https://github.com/streda/personal-portfolio-production.git',
     liveDemo: 'https://stredaweb.dev/'
   },
@@ -31,7 +31,7 @@ const projects = [
     title: 'To-do List App',
     description:
       'A digital tool that allows users to create and manage lists of tasks they need to complete, such as marking items as finished and active.',
-    technologies: ['React', 'Redux', 'JavaScript', 'Node.js', 'PostgreSQL','AWS', 'Web Socket'],
+    technologies: ['React', 'JavaScript', 'Node.js', 'PostgreSQL', 'AWS'],
     githubLink: 'https://github.com/streda/to-do-list.git',
     liveDemo: 'https://mytodolistapps.com'
   }

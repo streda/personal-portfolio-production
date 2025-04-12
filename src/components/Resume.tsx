@@ -35,11 +35,10 @@ const Resume: React.FC = () => {
             <li>React (Hooks, Context API, Redux)</li>
             <li>Node.js</li>
             <li>Express.js</li>
-            <li>Microservices Architecture</li>
             <li>SQL Server & PostgreSQL</li>
             <li>MongoDB (NoSQL)</li>
             <li>RESTful APIs & GraphQL</li>
-            <li>CI/CD Pipelines (Jenkins, GitHub Actions)</li>
+            <li>CI/CD Pipelines</li>
             <li>Unit Testing (Jest, Mocha)</li>
             <li>AWS (EC2, S3, RDS, Lambda, Amplify)</li>
             <li>Software Configuration Management (Git, GitLab, Github)</li>
@@ -59,8 +58,8 @@ const Resume: React.FC = () => {
               <p className="text-sm text-gray-600">Academic Courses | Jan 2021 - Present</p>
               <ul className="list-disc list-inside">
                 <li>Built scalable web applications using <strong>React, Node.js, and Express.js</strong>.</li>
-                <li>Developed and deployed RESTful APIs following <strong>microservices architecture</strong>.</li>
-                <li>Integrated <strong>CI/CD pipelines with GitHub Actions & Jenkins</strong>.</li>
+                <li>Developed and deployed RESTful APIs.</li>
+                <li>Integrated <strong>CI/CD pipelines</strong>.</li>
                 <li>Managed <strong>AWS cloud services (EC2, S3, RDS, Lambda)</strong> for deployment.</li>
               </ul>
             </div>
@@ -86,7 +85,6 @@ const Resume: React.FC = () => {
               <h3 className="text-lg font-semibold">Task Management App</h3>
               <ul className="list-disc list-inside">
                 <li>Designed a <strong>full-stack PERN (PostgreSQL, Express, React, Node.js) app</strong>.</li>
-                <li>Implemented <strong>CI/CD pipelines for automatic AWS Amplify deployments</strong>.</li>
                 <li>Hosted backend on <strong>AWS EC2, using Nginx as a reverse proxy</strong>.</li>
                 <li>Used <strong>AWS S3 for file storage and RDS (PostgreSQL) for structured data storage</strong>.</li>
               </ul>
@@ -112,7 +110,7 @@ const Resume: React.FC = () => {
             <strong>Bachelor’s in Computer Science & Engineering, UCSD (2022)</strong>
           </p>
           <p className="text-gray-600 text-sm">
-            Key Courses: Data Structures & Algorithms, Web Development, Operating Systems, Computer Networks, Software Engineering
+            Key Courses: Data Structures & Algorithms, Software Engineering, Web Development, Operating Systems, Computer Networks, Computer Security.
           </p>
         </section>
 
@@ -122,9 +120,9 @@ const Resume: React.FC = () => {
             Courses & Certifications
           </h2>
           <ul className="list-disc list-inside text-gray-700">
-            <li><strong>Full Stack Web Development</strong></li>
-            <li><strong>Advanced JavaScript & TypeScript</strong></li>
-            <li><strong>Cloud Computing & DevOps (AWS, CI/CD Pipelines)</strong></li>
+            <li><strong>Full Stack Web Development - FreeCodeCamp</strong></li>
+            <li><strong>Advanced JavaScript & TypeScript - Codecademy </strong></li>
+            <li><strong>Cloud Computing & DevOps (AWS, CI/CD Pipelines) - Aws</strong></li>
           </ul>
         </section>
 
