@@ -21,7 +21,7 @@ const Resume: React.FC = () => {
         {/* Header Section */}
         <header className="bg-gray-800 text-white p-6 sm:p-8"> {/* Header with background */}
           <div className="text-center mb-4">
-            <h1 className="text-3xl sm:text-4xl font-bold">Samuel Reda</h1>
+            <h1 className="text-3xl sm:text-4xl font-bold text-white">Samuel Reda</h1>
             <p className="text-gray-300 text-sm sm:text-base mt-1">San Diego, CA</p>
           </div>
           <div className="text-center text-sm sm:text-base space-y-1 text-gray-300 mb-4">
