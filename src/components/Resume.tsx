@@ -5,7 +5,7 @@ const Resume: React.FC = () => {
     linkedin: "https://linkedin.com/in/samuel-t-r",
     github: "https://github.com/streda",
     portfolio: "https://stredaweb.dev", 
-    resumePdf: "/Resume.pdf", 
+    resumePdf: "/Resume-cv.pdf", 
     portfolioRepo: "https://github.com/streda/personal-portfolio-production",
     portfolioLive: "https://stredaweb.dev/",
     taskAppRepo: "https://github.com/streda/to-do-list",
