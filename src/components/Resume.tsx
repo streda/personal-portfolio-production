@@ -80,7 +80,7 @@ const Resume: React.FC = () => {
                 <p className="text-sm text-gray-500 mb-1">Technologies: React, TypeScript, Node.js, Socket.IO, Nodemailer</p>
                 <ul className="list-disc list-inside space-y-1 ml-4">
                   <li>Built a portfolio site visited by 300+ unique users monthly, with 2+ minute avg. session time.</li>
-                  <li>Implemented real-time messaging via Socket.IO, achieving < 100ms latency.</li>
+                  <li>Implemented real-time messaging via Socket.IO, achieving &lt; 100ms latency.</li>
                   <li>Automated deployment using AWS Amplify CI/CD, reducing update time to under 1 minute.</li>
                 </ul>
                 <div className="mt-2 text-sm">
