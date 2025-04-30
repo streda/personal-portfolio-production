@@ -22,7 +22,7 @@ const projects = [
       'Heroku',
       'Stripe'
     ],
-    githubLink: 'https://github.com/streda/restaurant-app-production.git',
+    githubLink: 'https://github.com/streda/RestaurantAppImprovement1.git',
     liveDemo: 'https://truefood.rest'
   },
 
