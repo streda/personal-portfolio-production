@@ -23,7 +23,7 @@ const projects = [
       'Stripe'
     ],
     githubLink: 'https://github.com/streda/RestaurantAppImprovement1.git',
-    liveDemo: 'https://truefood.rest'
+    liveDemo: 'https://truefood.world'
   },
 
   {
