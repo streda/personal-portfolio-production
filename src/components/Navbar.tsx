@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
           to="/"
           className="text-2xl font-bold text-primary hover:text-secondary transition-colors"
         >
-          Samuel<span className="text-accent">.</span>
+          Samuel's portfolio<span className="text-accent"></span>
         </NavLink>
 
         {/* Desktop Menu */}
