@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { Menu, X } from 'lucide-react'; 
 
 const navItems = [
   { name: 'About', to: '/about' },
@@ -9,15 +10,20 @@ const navItems = [
 ];
 
 const Navbar: React.FC = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <nav className="sticky top-0 z-50 bg-white shadow-sm">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        {/* Logo / Brand */}
-        <NavLink to="/" className="text-2xl font-bold text-primary hover:text-secondary transition-colors">
+        {/* Logo */}
+        <NavLink
+          to="/"
+          className="text-2xl font-bold text-primary hover:text-secondary transition-colors"
+        >
           Samuel<span className="text-accent">.</span>
         </NavLink>
 
-        {/* Desktop Nav */}
+        {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
           {navItems.map((item) => (
             <NavLink
@@ -30,17 +36,44 @@ const Navbar: React.FC = () => {
                    isActive ? 'text-primary after:scale-x-100' : 'after:scale-x-0'
                  }`
               }
+              onClick={() => setIsOpen(false)}
             >
               {item.name}
             </NavLink>
           ))}
         </div>
 
-        {/* Optional: Mobile toggle (you can expand this later) */}
+        {/* Mobile Menu Icon */}
         <div className="md:hidden">
-          {/* Future: Hamburger menu */}
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="text-gray-700 focus:outline-none"
+            aria-label="Toggle Menu"
+          >
+            {isOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
         </div>
       </div>
+
+      {/* Mobile Dropdown */}
+      {isOpen && (
+        <div className="md:hidden px-6 pb-4 space-y-3 bg-white shadow-sm transition-all duration-200">
+          {navItems.map((item) => (
+            <NavLink
+              key={item.name}
+              to={item.to}
+              className={({ isActive }) =>
+                `block text-base font-medium text-gray-700 hover:text-primary transition-colors ${
+                  isActive ? 'text-primary' : ''
+                }`
+              }
+              onClick={() => setIsOpen(false)}
+            >
+              {item.name}
+            </NavLink>
+          ))}
+        </div>
+      )}
     </nav>
   );
 };
