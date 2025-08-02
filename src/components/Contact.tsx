@@ -99,8 +99,8 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-100">
-      <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+    <div className="flex justify-center items-center min-h-screen bg-gray-50">
+      <div className="bg-white p-8 rounded-lg shadow-lg border border-blue-300 w-full max-w-md">
         <h1 className="text-2xl font-semibold mb-6 text-gray-800">
           Contact Me
         </h1>
