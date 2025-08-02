@@ -1,27 +1,32 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
-import AppRouter from './routes/Router';
 
 const App: React.FC = () => {
   return (
-    <Router>
-      <div className="flex flex-col min-h-screen">
-        {/* Navbar */}
-        <header className="shadow-md bg-white">
-          <Navbar />
-        </header>
+    <div className="flex flex-col min-h-screen scroll-smooth">
+      {/* Navbar*/}
+      <header className="fixed top-0 w-full z-50 shadow-md bg-white">
+        <Navbar />
+      </header>
 
-        {/* Main Content */}
-        <main className="flex-grow">
-          <AppRouter /> {/* Routes are now handled by AppRouter */}
-        </main>
+      {/* Content */}
+      <main className="mt-20 flex-grow space-y-24">
+        <section id="hero"><Hero /></section>
+        <section id="about"><About /></section>
+        <section id="skills"><Skills /></section>
+        <section id="projects"><Projects /></section>
+        <section id="contact"><Contact /></section>
+      </main>
 
-        {/* Footer */}
-        <Footer /> 
-      </div>
-    </Router>
+      {/* Footer */}
+      <Footer />
+    </div>
   );
 };
 

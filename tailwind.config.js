@@ -1,11 +1,24 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/**/*.{js,jsx,ts,tsx}', // Include all files in the src folder with these extensions
-    './public/index.html', // Include your index.html if you use it
+    './src/**/*.{js,jsx,ts,tsx}', 
+    './public/index.html', 
   ],
-  theme: {
-    extend: {},
+   theme: {
+    extend: {
+      backgroundSize: {
+        '200%': '200% 100%',
+      },
+      animation: {
+        shine: 'shine 2s linear infinite',
+      },
+      keyframes: {
+        shine: {
+          '0%': { backgroundPosition: '200% center' },
+          '100%': { backgroundPosition: '-200% center' },
+        },
+      },
+    },
   },
   plugins: [],
 };
