@@ -7,8 +7,8 @@ const Hero: React.FC = () => {
       className="min-h-screen flex flex-col justify-center items-center text-center px-6 bg-gradient-to-br from-blue-50 via-white to-gray-100"
     >
       <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-4">
-        Hey, I'm <span className="text-blue-600">Samuel Reda</span>
-      </h1>
+  Hey there <span role="img" aria-label="waving hand">👋</span>, I'm <span className="text-blue-600">Samuel Reda</span>
+</h1>
 
       <p className="text-lg md:text-xl text-gray-700 max-w-2xl mb-6 leading-relaxed">
   Software Engineer with 3 years' experience building full-stack systems using Java Spring Boot, React.js, PostgreSQL, AWS, and modern AI frameworks.
