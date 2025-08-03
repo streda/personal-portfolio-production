@@ -11,9 +11,10 @@ const Hero: React.FC = () => {
       </h1>
 
       <p className="text-lg md:text-xl text-gray-700 max-w-2xl mb-6 leading-relaxed">
-        Software Engineer with 3 years' experience in Java Spring Boot, React.js, PostgreSQL & AWS.
-        I build scalable full-stack systems with a focus on clean architecture, API performance, and secure cloud deployment.
-      </p>
+  Software Engineer with 3 years' experience building full-stack systems using Java Spring Boot, React.js, PostgreSQL, AWS, and modern AI frameworks.
+  And most recently, I engineered an <span className="font-semibold text-blue-600">agentic AI workflow</span> with Pydantic-AI and Python to simulate intelligent order fulfillment with autonomous agents and real-time inventory tracking.
+  I specialize in scalable architecture, secure cloud deployment, and performance-optimized APIs.
+</p>
 
       <div className="flex gap-4">
         <a
