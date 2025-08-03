@@ -44,12 +44,12 @@ const projects = [
     liveDemo: 'https://mytodolistapps.com'
   },
 
-  {
+ {
   id: 5,
-  title: 'E-Commerce Platform - Backend Project using Spring Boot',
+  title: 'E-Commerce Backend Platform using Spring Boot',
   description:
-    'Full-stack platform supporting authenticated user registration, cart, and orders with role-based access, high test coverage, and performance-tuned APIs.',
-  technologies: ['Spring Boot', 'React', 'PostgreSQL', 'MyBatis', 'JWT', 'JUnit', 'Selenium'],
+    'Robust backend system for an e-commerce application supporting user authentication, role-based access control, cart and order management. Features secure JWT-based APIs, PostgreSQL integration with MyBatis, and 71%+ test coverage using JUnit and Selenium.',
+  technologies: ['Spring Boot', 'PostgreSQL', 'MyBatis', 'JWT', 'JUnit', 'Selenium'],
   githubLink: 'https://github.com/streda/E-Commerce-Project.git'
 },
 
