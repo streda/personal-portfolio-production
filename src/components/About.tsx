@@ -11,15 +11,18 @@ const About: React.FC = () => {
         whileHover={{ scale: 1.01 }}
         className="max-w-5xl w-full bg-gray-50 border border-blue-300 rounded-2xl shadow-xl px-6 md:px-16 py-12 text-center"
       >
-        {/* Profile Picture */}
-        <div className="flex justify-center mb-8">
-          <img
-            src="/images/Sam-Pic.png"
-            alt="Samuel Reda"
-            // className="w-32 h-32 rounded-full shadow-md object-cover"
-            className="w-full h-full rounded-full object-cover border-4 border-white shadow-lg"
-          />
-        </div>
+        {/* Profile Picture with Gradient Border */}
+<div className="flex justify-center mb-8">
+  <div className="relative w-32 h-32 md:w-40 md:h-40">
+    <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-purple-500 via-blue-500 to-pink-500 p-[3px] animate-shine">
+      <img
+        src="/images/Sam-Pic.png"
+        alt="Samuel Reda"
+        className="w-full h-full rounded-full object-cover border-4 border-white shadow-lg"
+      />
+    </div>
+  </div>
+</div>
 
         {/* About Text */}
         <h2 className="text-4xl font-semibold mb-6 text-gray-900">About Me</h2>
