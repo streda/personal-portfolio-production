@@ -36,7 +36,7 @@ const Hero: React.FC = () => {
 <div className="mt-10 px-1 w-fit mx-auto rounded-2xl bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 p-[2px]">
   <div className="bg-white rounded-2xl px-6 py-4">
     <p className="text-lg md:text-xl font-medium bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-blue-600 to-blue-500 animate-shine bg-[length:200%_auto]">
-      Full Stack Engineer | React, Node.js, Java, Spring Boot, PostgreSQL & Cloud Enthusiast
+      Full Stack Engineer | React, Node.js, Java, Spring Boot, PostgreSQL, Cloud and AI Enthusiast
     </p>
   </div>
 </div>
