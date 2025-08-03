@@ -46,7 +46,7 @@ const projects = [
 
   {
   id: 5,
-  title: 'E-Commerce Platform (Spring Boot & React)',
+  title: 'E-Commerce Platform - Backend Project using Spring Boot',
   description:
     'Full-stack platform supporting authenticated user registration, cart, and orders with role-based access, high test coverage, and performance-tuned APIs.',
   technologies: ['Spring Boot', 'React', 'PostgreSQL', 'MyBatis', 'JWT', 'JUnit', 'Selenium'],
