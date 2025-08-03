@@ -2,7 +2,15 @@ import React from 'react';
 
 const projects = [
   {
-    id: 1,
+  id: 1,
+  title: 'Genetic AI Multi-Agent Order Fulfillment System',
+  description:
+    'An agentic AI system of 4 autonomous agents plus an orchestrator agent to manage quotes, inventory, and delivery. Built for realistic job flows with SQLite backend.',
+  technologies: ['Python 3.13', 'Pydantic-AI', 'SQLite', 'SQLAlchemy', 'Pandas', 'Mermaid', 'Git'],
+  githubLink: 'https://github.com/streda/genetic-ai-multi-agent-system.git',
+},
+  {
+    id: 2,
     title: 'Portfolio Website',
     description:
       'My personal portfolio website showcasing my skills and projects.',
@@ -11,7 +19,7 @@ const projects = [
     liveDemo: 'https://stredaweb.dev/'
   },
   {
-    id: 2,
+    id: 3,
     title: 'Restaurant App',
     description:
       'A full-stack restaurant app for managing menus, orders, and customers.',
@@ -27,14 +35,32 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: 'To-do List App',
     description:
       'A digital tool that allows users to create and manage lists of tasks they need to complete, such as marking items as finished and active.',
     technologies: ['React', 'JavaScript', 'Node.js', 'PostgreSQL', 'AWS'],
     githubLink: 'https://github.com/streda/to-do-list.git',
     liveDemo: 'https://mytodolistapps.com'
-  }
+  },
+
+  {
+  id: 5,
+  title: 'E-Commerce Platform (Spring Boot & React)',
+  description:
+    'Full-stack platform supporting authenticated user registration, cart, and orders with role-based access, high test coverage, and performance-tuned APIs.',
+  technologies: ['Spring Boot', 'React', 'PostgreSQL', 'MyBatis', 'JWT', 'JUnit', 'Selenium'],
+  githubLink: 'https://github.com/streda/E-Commerce-Project.git'
+},
+
+{
+  id: 6,
+  title: 'Bullet Journal Productivity App',
+  description:
+    'Team project focused on UX design and QA testing, improving task completion, stability, and user satisfaction through rigorous testing and user feedback.',
+  technologies: ['JavaScript', 'React', 'Figma', 'HTML/CSS', 'Jest'],
+  githubLink: 'https://github.com/cse110-sp21-group11/cse110-sp21-group11?tab=readme-ov-file'
+}
 ];
 
 const Projects: React.FC = () => {
