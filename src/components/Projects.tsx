@@ -3,7 +3,7 @@ import React from 'react';
 const projects = [
   {
   id: 1,
-  title: 'Genetic AI Multi-Agent Order Fulfillment System',
+  title: 'Genetic AI: Multi-Agent Order Fulfillment System',
   description:
     'An agentic AI system of 4 autonomous agents plus an orchestrator agent to manage quotes, inventory, and delivery. Built for realistic job flows with SQLite backend.',
   technologies: ['Python 3.13', 'Pydantic-AI', 'SQLite', 'SQLAlchemy', 'Pandas', 'Mermaid', 'Git'],
