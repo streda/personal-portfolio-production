@@ -16,7 +16,8 @@ const About: React.FC = () => {
           <img
             src="/images/Sam-Pic.png"
             alt="Samuel Reda"
-            className="w-32 h-32 rounded-full shadow-md object-cover"
+            // className="w-32 h-32 rounded-full shadow-md object-cover"
+            className="w-full h-full rounded-full object-cover border-4 border-white shadow-lg"
           />
         </div>
 
