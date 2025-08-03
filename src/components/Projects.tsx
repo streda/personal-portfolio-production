@@ -103,14 +103,16 @@ const Projects: React.FC = () => {
       >
         GitHub Link
       </a>
-      <a
-        href={project.liveDemo}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
-      >
-        Live Demo
-      </a>
+      {project.liveDemo && (
+  <a
+    href={project.liveDemo}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
+  >
+    Live Demo
+  </a>
+)}
     </div>
   </div>
 ))}
