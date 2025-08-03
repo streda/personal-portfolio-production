@@ -25,16 +25,15 @@ const About: React.FC = () => {
 </div>
 
         {/* About Text */}
-        <h2 className="text-4xl font-semibold mb-6 text-gray-900">About Me</h2>
-        <p className="text-lg text-gray-700 leading-relaxed">
-          I am a Junior Software Development Engineer with experience in writing secure, scalable
-          applications using Java Spring Boot, JavaScript, React.js, PostgreSQL, and AWS. Proven
-          ability in developing and deploying secure, scalable full-stack solutions to enhance
-          efficiency and user experience. Expertise in RESTful API development, secure authentication
-          (JWT, OAuth2), and Dockerized AWS deployments. Actively seeking an entry-level
-          challenging opportunity to contribute to impactful product development and collaborate
-          within a team valuing clean, scalable software.
-        </p>
+<h2 className="text-4xl font-semibold mb-6 text-gray-900">About Me</h2>
+<p className="text-lg text-gray-700 leading-relaxed">
+  I’m a Junior Software Development Engineer with hands-on experience in building secure, scalable applications using Java Spring Boot, JavaScript, React.js, PostgreSQL, and AWS. 
+  I specialize in RESTful API development, secure authentication (JWT, OAuth2), and Dockerized cloud deployments. 
+  <br /><br />
+  Recently, I’ve expanded into <span className="font-semibold text-blue-600">Agentic AI</span> development by building a multi-agent workflow system using Python and Pydantic-AI. This system simulated real-world order fulfillment through autonomous agents with dynamic inventory management and decision-making. 
+  <br /><br />
+  I’m passionate about scalable architecture, AI-driven automation, and contributing to impactful product development within a team that values clean, maintainable software.
+</p>
       </motion.div>
     </section>
   );
