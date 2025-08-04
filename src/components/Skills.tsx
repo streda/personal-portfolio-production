@@ -5,8 +5,8 @@ const skills = {
   Frontend: ['React', 'Tailwind CSS', 'Material UI', 'Context API'],
   Backend: ['Spring Boot', 'Node.js', 'Express', 'Spring Security'],
   Database: ['PostgreSQL', 'MongoDB', 'MySQL'],
-  DevOps: ['Docker', 'AWS', 'Nginx', 'CI/CD', 'Jenkins'],
-  Tools: ['Git', 'Jest', 'Mockito', 'Figma', 'Webpack', 'IntelliJ'],
+  DevOps: ['Docker', 'AWS', 'Nginx', 'CI/CD', 'Jenkins', 'Kubernetes'],
+  Tools: ['Git', 'Jest', 'Mockito', 'Figma', 'Webpack', 'IntelliJ', 'VSCode'],
 };
 
 const Skills: React.FC = () => {

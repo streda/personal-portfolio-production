@@ -76,7 +76,14 @@ const Projects: React.FC = () => {
     className="bg-white border border-blue-300 shadow-md rounded-lg p-6 hover:shadow-lg transition-shadow"
   >
     <h2 className="text-2xl font-semibold mb-4 text-blue-600">
+      <a
+        href='{project.liveDemo}'
+        target='_blank'
+        rel="noopener noreferrer"
+        className="text-blue-600 hover:underline"
+      >
       {project.title}
+      </a>
     </h2>
     <p className="text-gray-700 mb-4">{project.description}</p>
     <div className="mb-4">
