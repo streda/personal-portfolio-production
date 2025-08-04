@@ -81,7 +81,6 @@ const Projects: React.FC = () => {
     <h2 className="text-2xl font-semibold mb-4">
   <a
     href={project.liveDemo || project.githubLink}
-    target="_blank"
     rel="noopener noreferrer"
     className="text-blue-600 hover:underline"
   >
