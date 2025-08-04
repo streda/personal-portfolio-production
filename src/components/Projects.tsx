@@ -77,7 +77,7 @@ const Projects: React.FC = () => {
   >
     <h2 className="text-2xl font-semibold mb-4 text-blue-600">
       <a
-        href='{project.liveDemo}'
+        href='{project.liveDemo || project.githubLink}'
         target='_blank'
         rel="noopener noreferrer"
         className="text-blue-600 hover:underline"
