@@ -8,6 +8,7 @@ const projects = [
     'An agentic AI system of 4 autonomous agents plus an orchestrator agent to manage quotes, inventory, and delivery. Built for realistic job flows with SQLite backend.',
   technologies: ['Python 3.13', 'Pydantic-AI', 'SQLite', 'SQLAlchemy', 'Pandas', 'Mermaid', 'Git'],
   githubLink: 'https://github.com/streda/genetic-ai-multi-agent-system.git',
+  liveDemo: null
 },
   {
     id: 2,
@@ -50,7 +51,8 @@ const projects = [
   description:
     'Robust backend system for an e-commerce application supporting user authentication, role-based access control, cart and order management. Features secure JWT-based APIs, PostgreSQL integration with MyBatis, and 71%+ test coverage using JUnit and Selenium.',
   technologies: ['Spring Boot', 'PostgreSQL', 'MyBatis', 'JWT', 'JUnit', 'Selenium'],
-  githubLink: 'https://github.com/streda/E-Commerce-Project.git'
+  githubLink: 'https://github.com/streda/E-Commerce-Project.git',
+  liveDemo: null
 },
 
 {
@@ -59,7 +61,8 @@ const projects = [
   description:
     'Team project focused on UX design and QA testing, improving task completion, stability, and user satisfaction through rigorous testing and user feedback.',
   technologies: ['JavaScript', 'React', 'Figma', 'HTML/CSS', 'Jest'],
-  githubLink: 'https://github.com/cse110-sp21-group11/cse110-sp21-group11?tab=readme-ov-file'
+  githubLink: 'https://github.com/cse110-sp21-group11/cse110-sp21-group11?tab=readme-ov-file',
+  liveDemo: null
 }
 ];
 
@@ -75,16 +78,16 @@ const Projects: React.FC = () => {
     key={project.id}
     className="bg-white border border-blue-300 shadow-md rounded-lg p-6 hover:shadow-lg transition-shadow"
   >
-    <h2 className="text-2xl font-semibold mb-4 text-blue-600">
-      <a
-        href={project.liveDemo || project.githubLink}
-        target='_blank'
-        rel="noopener noreferrer"
-        className="text-blue-600 hover:underline"
-      >
-      {project.title}
-      </a>
-    </h2>
+    <h2 className="text-2xl font-semibold mb-4">
+  <a
+    href={project.liveDemo || project.githubLink}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-600 hover:underline"
+  >
+    {project.title}
+  </a>
+</h2>
     <p className="text-gray-700 mb-4">{project.description}</p>
     <div className="mb-4">
       <span className="text-sm font-semibold text-gray-600">
